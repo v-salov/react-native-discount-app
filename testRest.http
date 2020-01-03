@@ -1,0 +1,21 @@
+### GET request with a header
+GET https://vs-react.firebaseio.com/discounts.json
+Accept: application/json
+
+### Send POST request with json body
+POST https://vs-react.firebaseio.com/discounts.json
+Content-Type: application/json
+
+{
+  "productName": "Шоколад",
+  "description": "Mousse молочный с мусовой и черничной/клубничной начинкой ТМ «Millennium» - 135 г",
+  "discount": 41,
+  "price": 29.5,
+  "discountPrice": 17.5,
+  "category": "Молочные продукты",
+  "market": "АТБ",
+  "img": "https://www.atbmarket.com/attachments/product/b/5/b/1/3/b5b132484bee4bd6a69c425b18042d48.jpg",
+  "date": "31.12.2019"
+}
+
+###
